@@ -27,9 +27,10 @@ export default function Login(){
             <input type="text" placeholder="enter your username" name="username" />
             <label>Password</label>
             <input type="password" placeholder="enter your password" name="password" />
-            <button onClick={authenticate}>Login</button>
+         </form>
 
-        </form>
+         <button onClick={authenticate}>Login</button>
+         
         </div>
     )
 }
