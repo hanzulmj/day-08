@@ -18,15 +18,16 @@ export default function Login(){
     }
     return(
         <div>
-            <div>
+             
             <h1>Login Here</h1>
-            <button onClick={authenticate}>Login</button>
-            </div>
+            
+           
         <form>
             <label>Username</label>
             <input type="text" placeholder="enter your username" name="username" />
             <label>Password</label>
             <input type="password" placeholder="enter your password" name="password" />
+            <button onClick={authenticate}>Login</button>
 
         </form>
         </div>
