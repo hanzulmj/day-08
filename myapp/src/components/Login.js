@@ -23,14 +23,14 @@ export default function Login(){
             
            
         <form>
-            <label>Username</label>
+            <p>Username</p>
             <input type="text" placeholder="enter your username" name="username" />
-            <label>Password</label>
+            <p>Password</p>
             <input type="password" placeholder="enter your password" name="password" />
          </form>
 
          <button onClick={authenticate}>Login</button>
-         
+
         </div>
     )
 }
