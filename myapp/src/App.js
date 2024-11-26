@@ -10,17 +10,15 @@ function App() {
        <Router>
         <nev>
           <ul>
-            <li><link to="/home">Home</link></li>
-            <li><link to="/about">About</link></li>
-            <li><link to="/contact">Contact</link></li>
+            <li><Link to="/home">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
           </ul>
         </nev>
         <Routes>
           <Route path='/home' element={<Home/>} />
           <Route path='/about' element={<AboutUs/>} />
-          <Route path='/contact' element={<ContactUs/>} />
-
-           
+          <Route path='/contact' element={<ContactUs/>} />       
         </Routes>
        </Router>
     </div>
