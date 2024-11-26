@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Link,NavLink } from 'react-rout
 import Home from './components/Home';
 import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
+import Login from './components/Login';
+import Dashboard from './components/Dashboard';
  
 function App() {
   return (
