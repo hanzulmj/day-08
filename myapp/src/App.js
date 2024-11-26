@@ -10,6 +10,10 @@ function App() {
   return (
     <div className="App">
        <Router>
+
+        <Login />
+        <Dashboard />
+
         <nav>
           <ul>
             <li><Link to="/home">Home</Link></li>

@@ -1,10 +1,15 @@
+import { useNavigate } from "react-router-dom";
+
 export default function Login(){
+    const navigate = useNavigate();
+    const authenticate=()=>{
+        navigate('/dashboard');
+    }
+
     return(
         <div>
             <h1>Login Here</h1>
-            <button>Login</button>
-            //we are going to learn a new hook
-            
+            <button onClick={authenticate}>Login</button>
         </div>
-    );
+    )
 }
