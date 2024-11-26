@@ -25,8 +25,8 @@ export default function Login(){
         <form>
             <p>Username  :  
             <input type="text" placeholder="enter your username" name="username" /></p>
-            <p>Password</p>
-            <input type="password" placeholder="enter your password" name="password" />
+            <p>Password :
+            <input type="password" placeholder="enter your password" name="password" /></p>
          </form>
 
          <button onClick={authenticate}>Login</button>
