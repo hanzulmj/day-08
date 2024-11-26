@@ -5,17 +5,19 @@ import { useNavigate } from "react-router-dom";
 export default function Login(){
     const navigate = useNavigate();
     const authenticate=()=>{
+        if (setName === setPassword) {
+            console.log("You are logged in");
+        } else {
+            console.log("Your password or username is incorrect");
+        }
+        
         navigate('/dashboard');
     }
 
     const[name,setName]=useState("Hanzul");
     const[password,setPassword]=useState("ysfmee123");
 
-    if (setName === setPassword) {
-        console.log("You are logged in");
-    } else {
-        console.log("Your password or username is incorrect");
-    }
+   
     return(
         <div>
              
