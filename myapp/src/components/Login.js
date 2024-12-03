@@ -2,6 +2,10 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 //we use useNavigate hook here
 //so we have to use it above the export default function
+
+const[name,setName]=useState("Hanzul");
+const[password,setPassword]=useState("ysfmee123");
+
 export default function Login(){
     const navigate = useNavigate();
     const authenticate=()=>{
@@ -14,8 +18,7 @@ export default function Login(){
         navigate('/dashboard');
     }
 
-    const[name,setName]=useState("Hanzul");
-    const[password,setPassword]=useState("ysfmee123");
+    
 
    
     return(
