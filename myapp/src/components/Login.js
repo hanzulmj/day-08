@@ -3,10 +3,12 @@ import { useNavigate } from "react-router-dom";
 //we use useNavigate hook here
 //so we have to use it above the export default function
 
-const[name,setName]=useState("Hanzul");
-const[password,setPassword]=useState("ysfmee123");
 
 export default function Login(){
+    const[name,setName]=useState("Hanzul");
+    const[password,setPassword]=useState("ysfmee123");
+
+
     const navigate = useNavigate();
     const authenticate=()=>{
         if (setName === setPassword) {
